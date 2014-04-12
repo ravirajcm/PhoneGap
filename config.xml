@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns		= "http://www.w3.org/ns/widgets"
 	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.phonegap.getting.started"
+	id		= "com.a42android.tworestoeleven"
 	version 	= "1.0.0">
 
-	<name>PhoneGap: Getting Started</name>
+	<name>Two Resto Eleven</name>
 
 	<description>
-		A template for getting started with PhoneGap development and build.phonegap.com
+		Most addictive Mobile version of 2048 game and almost perfect 2048 number puzzle game for Android! Explore deep challenge for your mind!
 	</description>
 
-	<author href="http://alunny.github.com"
-		email="andrew.lunny@nitobi.com">
+	<author href="http://rahipatel.x10.mx"
+		email="ravirajcm@gmail.com">
 		Andrew Lunny
 	</author>
 
