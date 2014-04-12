@@ -24,6 +24,29 @@ public class MainGameActivity extends DroidGap {
         layout.addView(adView);
         AdRequest adRequest = new AdRequest();
         adView.loadAd(adRequest);
+    }
 
+    @Override
+    protected void onRestart() {
+        // TODO Auto-generated method stub
+        super.onRestart();
+        try {
+//            AdController adcontroller = new AdController(this, "106640318");
+//            adcontroller.loadAd();
+        } catch (Exception e) {
+            // TODO: handle exception
+        }
+    }
+
+    @Override
+    public void onDestroy() {
+        super.onDestroy();
+        try {
+            if (adView != null) {
+                adView.destroy();
+            }
+        } catch (Exception e) {
+
+        }
     }
 }

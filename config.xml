@@ -1,24 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns		= "http://www.w3.org/ns/widgets"
-	xmlns:gap	= "http://phonegap.com/ns/1.0"
-	id		= "com.a42android.tworestoeleven"
-	version 	= "1.0.0">
+<widget xmlns:gap="http://phonegap.com/ns/1.0"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.a42android.tworestoeleven"
+    version="1.0.0"
+    xmlns="http://www.w3.org/ns/widgets" >
 
-	<name>Two Resto Eleven</name>
+    <name>
+Two Resto Eleven
+    </name>
 
-	<description>
+    <description>
 		Most addictive Mobile version of 2048 game and almost perfect 2048 number puzzle game for Android! Explore deep challenge for your mind!
-	</description>
+    </description>
 
-	<author href="http://rahipatel.x10.mx"
-		email="ravirajcm@gmail.com">
-		Andrew Lunny
-	</author>
+    <author
+        email="ravirajcm@gmail.com"
+        href="http://rahipatel.x10.mx" >
+		Rahi Patel
+    </author>
 
-	<icon src="icon.png" gap:role="default" />
+    <icon
+        src="icon.png"
+        gap:role="default" />
+<access origin="*" />
+    <feature name="http://api.phonegap.com/1.0/geolocation" />
 
-	<feature name="http://api.phonegap.com/1.0/geolocation"/>
-	<feature name="http://api.phonegap.com/1.0/network"/>
+    <feature name="http://api.phonegap.com/1.0/network" />
 
-	<preference name="orientation" value="portrait" />
+    <feature name="AdController" >
+
+        <param
+            name="android-package"
+            value="com.leadbolt.phonegap.android.LBPhonegapPlugin" />
+    </feature>
+
+    <preference
+        name="orientation"
+        value="portrait" />
+
 </widget>

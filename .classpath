@@ -7,5 +7,6 @@
 	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
 	<classpathentry kind="lib" path="libs/cordova-2.2.0.jar"/>
 	<classpathentry kind="lib" path="libs/GoogleAdMobAdsSdk-6.4.1.jar"/>
+	<classpathentry kind="lib" path="libs/LBPhonegapPlugin.jar"/>
 	<classpathentry kind="output" path="bin/classes"/>
 </classpath>
